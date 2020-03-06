@@ -1,6 +1,6 @@
 /********************************************************************
  * ** Program Filename: player.cpp
- * ** Author: Megan Lynn Tuker
+ * ** Author: Megan Lynn Tucker
  * ** Date: 02/02/2020
  * ** Description: Contains information on the player class
  * ** Input: N/A
@@ -112,7 +112,7 @@ void Player::drawCard(int rank, int suit){
  * ** Description: Prints the value of each card in the player's hand
  * ** Parameters: N/A
  * ** Pre-Conditions: N/A
- * ** Post-Conditions: The hand is printed in the order it sits in the array along with its posiiton
+ * ** Post-Conditions: The hand is printed in the order it sits in the array along with its position
  * *********************************************************************/ 
 void Player::printHand() const{
 	hand.printHand();

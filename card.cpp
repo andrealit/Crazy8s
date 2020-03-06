@@ -1,6 +1,6 @@
 /********************************************************************
  * ** Program Filename: card.cpp
- * ** Author: Megan Lynn Tuker
+ * ** Author: Megan Lynn Tucker
  * ** Date: 02/02/2020
  * ** Description: Contains information on the card class
  * ** Input: N/A

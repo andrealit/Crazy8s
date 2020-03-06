@@ -1,6 +1,6 @@
 /********************************************************************
  * ** Program Filename: driver.cpp
- * ** Author: Megan Lynn Tuker
+ * ** Author: Megan Lynn Tucker
  * ** Date: 02/02/2020
  * ** Description: Plays the game; prompts the user if they want to play again
  * ** Input: Integer between 1 and 2

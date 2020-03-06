@@ -1,6 +1,6 @@
 /********************************************************************
  * ** Program Filename: hand.cpp
- * ** Author: Megan Lynn Tuker
+ * ** Author: Megan Lynn Tucker
  * ** Date: 02/02/2020
  * ** Description: Contains information on the hand class
  * ** Input: N/A
@@ -93,11 +93,11 @@ void Hand::setN_cards(int num_cards){
  * ** Description: Prints the value of each card in the hand
  * ** Parameters: N/A
  * ** Pre-Conditions: N/A
- * ** Post-Conditions: The hand is printed in the order it sits in the array along with its posiiton
+ * ** Post-Conditions: The hand is printed in the order it sits in the array along with its position
  * *********************************************************************/ 
 void Hand::printHand() const{
 	for(int i = 0; i < n_cards; i++){
-		cout << "[" << i + 1 << "]"; //posiitons are +1 so we can use atoi to verify input values
+		cout << "[" << i + 1 << "]"; //positions are +1 so we can use atoi to verify input values
 		cards[i].printCard();
 	}
 }
@@ -121,7 +121,7 @@ void Hand::playCard(int card_location){
 		}
 	}
 	delete [] cards; //delete the old array
-	cards = temp; //make the pointer for cards point to temp; no need to derefference 
+	cards = temp; //make the pointer for cards point to temp; no need to dereference 
 	temp = NULL;
 }
 
@@ -152,7 +152,7 @@ void Hand::drawCard(int rank, int suit){
 			}
 		}
 		delete [] cards; //delete the old array
-		cards = temp; //make the pointer for cards point to temp; no need to derefference 
+		cards = temp; //make the pointer for cards point to temp; no need to dereference 
 		temp = NULL;
 	}
 }

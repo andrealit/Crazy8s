@@ -1,6 +1,6 @@
 /********************************************************************
  * ** Program Filename: game.cpp
- * ** Author: Megan Lynn Tuker
+ * ** Author: Megan Lynn Tucker
  * ** Date: 02/02/2020
  * ** Description: Contains information on the game class
  * ** Input: N/A
@@ -31,7 +31,7 @@ Game::Game(){
 
 	cards.shuffleDeck();
 	
-	for(int i = 0; i < 14; i = i + 2){ //itterate by 2 because 1 card is drawn for player and 1 for computer
+	for(int i = 0; i < 14; i = i + 2){ //iterate by 2 because 1 card is drawn for player and 1 for computer
 		int rank0 = cards.getCard(i).getRank(); //player
 		int suit0 = cards.getCard(i).getSuit(); //player
 		int rank1 = cards.getCard(i + 1).getRank(); //computer; add 1 to ensure we don't draw the same card twice
